@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>p9yp9y.vaos</groupId>
+	<artifactId>vaos-xterm</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<repositories>
+		<repository>
+			<id>bintray</id>
+			<url>https://dl.bintray.com/p9yp9y/vaos</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>p9yp9y.vaos</groupId>
+			<artifactId>vaos-dev</artifactId>
+			<version>0.0.7-SNAPSHOT</version>
+		</dependency>
+
+	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>bintray-p9yp9y-vaos</id>
+			<name>p9yp9y-vaos</name>
+			<url>https://api.bintray.com/maven/p9yp9y/vaos/vaos-hello-app/;publish=1</url>
+		</repository>
+	</distributionManagement>
+</project>
